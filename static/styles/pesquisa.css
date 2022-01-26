@@ -1,0 +1,11 @@
+p {
+    font-size: 46px;
+    font-family: sans-serif;
+}
+
+input {
+    border: none;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    height: 100px;
+}

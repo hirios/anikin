@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Anikin</title>
+<link rel="stylesheet" href="../static/styles/pagina.css">
+</head>
+<body style="margin: 0px; background: #0e0e0e;">
+    <div class="thumbnail-wrapper">
+        {% for pag in PAGINAS %}
+            <div class="img-pag" data-img-pag="{{ pag }}"></div>
+        {% endfor %}
+
+        <img id="img-infocus" style="width: 100%; height: auto;" src="{{ FIRST }}">
+        <button id="passar" onclick="fpassar()">PASSAR</button>
+        <button id="voltar" onclick="fvoltar()">VOLTAR</button>
+    </div>
+    <script type="text/javascript" src="../static/script/script.js"></script>
+</body>
+</html>
+
+<!-- // body style="margin: 0px; background: #0e0e0e;" -->
+<!-- style="width: 100%; height: auto;" -->

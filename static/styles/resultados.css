@@ -1,0 +1,26 @@
+
+a {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#link-voltar{
+    position: absolute;
+    font-size: 115px;
+    font-weight: 800px;
+    top: -1%;
+    right: 2%;
+}
+
+
+img#miniatura {
+    border-radius: 8px;
+    width: 75%;
+    height: auto;
+}
+
+li.mini-results {
+    display: inline-block;
+    width: 320px; 
+    height: 400px;
+}

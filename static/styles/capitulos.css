@@ -1,0 +1,20 @@
+ul li {
+    display: inline-block;
+    /* width: 320px; 
+    height: 400px; */
+}
+
+
+/* BOTÕES PARA SELECIONAR CAPÍTULOS */
+
+.redic-cap {
+    border: 1px solid #858484;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #1f1e1e;
+    font-size: 45px;
+    line-height: 48px;
+    font-weight: 400;
+    min-width: 200px;
+    height: 100px;
+}
